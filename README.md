@@ -1,6 +1,4 @@
 # BikeSharingAssignment
-> Outline a brief description of your project.
-
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -12,6 +10,7 @@
 
 ## General Information
 **Problem Statement**
+
 A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
 
 
@@ -29,6 +28,7 @@ Based on various meteorological surveys and people's styles, the service provide
 
 
 **Business Goal:**
+
 You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
 
@@ -60,36 +60,54 @@ Please don't forget to perform this step as the R-squared score on the test set 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
+
 **Best fitting equation for our model.**
+
 y = 0.203679 + 0.491531 * x1 + 0.233727 * x2 + 0.084588 * x3 + 0.075934 * x4 + 0.047677 * x5 + 0.011757 * x6 - 0.046120 * x7 - 0.049633 * x8 - 0.065505 * x9 - 0.082161 * x10 - 0.102859 * x11 - 0.149066 * x12 - 0.289513 * x13 Influence of Interaction Variables:
 
 **Positive Effect:**
+
 Temperature (temp): The higher the temperature, the higher the bike rental.
+
 Year (yr): The trend for bike rental is positive with every year.
+
 Season (Winter, Summer, Sep): Bike demand is high in these seasons compared to Spring and July.
+
 Weekend (Saturday): Bike rentals are a little more on Saturdays compared to weekdays.
-Negative Effect:
+
+**Negative Effect:**
+
 Weather Conditions (Mist & Cloudy, Light Snow & Rain): Bad weather conditions decrease the bike demand.
+
 Day of Week (Sundays): The demand for bikes is relatively lesser on Sundays than on weekdays.
+
 Wind Speed (windspeed): More wind speed actually lowers the demand for bikes.
+
 Holidays (holiday): Bike rentals are lesser on holidays.
-Model Performance:
+
+**Model Performance:**
+
 The R-squared value means that the model captures an important percentage of the variance of bike demand. This means that the features chosen do well at predicting bike demand.
 
 **Key Considerations:**
+
 Undoubtedly, the model may bring forth other states or kinds of weather to produce various results.
 The other considerations are public transportation and activities of local events.
 Greater data analysis can be carried out along with calibrations or changes of the model in pursuit of increasing the prediction.
 
 **Actionable Insights**
+
 Weather-Based Strategies: Launch differential pricing or promotions that attract more rentals during the good days.
+
 Seasonal Marketing : Form marketing strategies targeting specific seasons and months at peak demand.
+
 Infrastructure: Bike lanes and bike parking facilities are to be encouraged for biking.
+
 Data-driven decision making: To know the behavior of a user, the data is to be analyzed, so as to operate the bikes.
+
 These results will make a bike sharing company increase the customer satisfaction and business.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
 
 ## Technologies Used
 Python Libraries
@@ -120,4 +138,4 @@ Created by https://github.com/RohitKini - feel free to contact me!
 <!-- ## License -->
 <!-- This project is open source and available under the [... License](). -->
 
-<!-- You don't have to include all sections - just the one's relevant to your project --># 
+<!-- You don't have to include all sections - just the one's relevant to your project -->
